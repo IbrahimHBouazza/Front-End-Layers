@@ -1,8 +1,7 @@
 "use client";
 import Tag from "@/components/Tag";
-import { motion, useMotionValueEvent, useScroll, useTransform } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
-import { twMerge } from "tailwind-merge";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 
 const text = `You're racing to create exceptional work, but traditional design tools slow you down with unnecessary complexity and steep learning curves.`;
 const words = text.split(" ");
@@ -39,7 +38,7 @@ export default function Introduction() {
                                 );
                             })}
                         </span>
-                        <span className="text-lime-400 block mt-4">That's why we built Layers.</span>
+                        <span className="text-lime-400 block mt-4">That&apos;s why we built Layers.</span>
                     </div>
                 </div>
                 <div className="h-[200vh]" ref={scrollTarget}></div>

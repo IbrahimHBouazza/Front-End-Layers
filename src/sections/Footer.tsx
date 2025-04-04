@@ -1,5 +1,4 @@
 "use client";
-import Tag from "@/components/Tag";
 import Button from "@/components/Button";
 import Link from "next/link";
 import { motion } from "framer-motion";

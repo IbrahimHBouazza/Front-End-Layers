@@ -1,6 +1,5 @@
 "use client";
 
-import { section } from "framer-motion/client";
 import logoImage from '@/assets/images/logo.svg';
 import Button from "@/components/Button";
 import { useState } from "react";
